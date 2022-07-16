@@ -9,6 +9,9 @@ vendor.audio.feature.fluence.enable=true
 # Qualcomm MSM8937 - Camera
 persist.vendor.camera.dual.isp.sync=0
 
+# Qualcomm MSM8937 - Encryption
+ro.crypto.volume.contents_mode=aes-256-xts
+
 # Qualcomm MSM8937 - SoC
 ro.soc.manufacturer=Qualcomm
 ro.soc.model=MSM8937

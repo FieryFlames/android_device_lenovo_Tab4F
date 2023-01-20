@@ -6,6 +6,9 @@ persist.vendor.audio.fluence.voicerec=false
 ro.vendor.audio.sdk.fluencetype=none
 vendor.audio.feature.fluence.enable=true
 
+# Qualcomm MSM8937 - Bluetooth
+bluetooth.sco.disable_enhanced_connection=1
+
 # Qualcomm MSM8937 - Camera
 persist.vendor.camera.dual.isp.sync=0
 

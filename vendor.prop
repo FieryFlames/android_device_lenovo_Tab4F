@@ -7,6 +7,7 @@ ro.vendor.audio.sdk.fluencetype=none
 vendor.audio.feature.fluence.enable=true
 
 # Qualcomm MSM8937 - Bluetooth
+bluetooth.le.disable_apcf_extended_features=1
 bluetooth.sco.disable_enhanced_connection=1
 
 # Qualcomm MSM8937 - Camera

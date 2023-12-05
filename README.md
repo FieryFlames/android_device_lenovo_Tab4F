@@ -1,1 +1,1 @@
-# Device Tree for Qualcomm MSM8937 Devices (msm8937)
+# Device Tree for Lenovo Tab4 8/10 (Wi-Fi variant)

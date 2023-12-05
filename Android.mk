@@ -6,7 +6,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(USES_DEVICE_QUALCOMM_MSM8937),true)
+ifeq ($(USES_DEVICE_LENOVO_TAB4F),true)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
 endif

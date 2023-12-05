@@ -6,9 +6,9 @@
 
 // fstab
 soong_config_module_type {
-    name: "qualcomm_msm8937_rootdir_prebuilt_etc",
+    name: "lenovo_tab4f_rootdir_prebuilt_etc",
     module_type: "prebuilt_etc",
-    config_namespace: "QUALCOMM_MSM8937_ROOTDIR",
+    config_namespace: "LENOVO_TAB4F_ROOTDIR",
     variables: ["KERNEL_VERSION"],
     properties: ["src"],
 }
@@ -18,7 +18,7 @@ soong_config_string_variable {
     values: ["k4_9", "k4_19"],
 }
 
-qualcomm_msm8937_rootdir_prebuilt_etc {
+lenovo_tab4f_rootdir_prebuilt_etc {
     name: "fstab.qcom",
     soong_config_variables: {
         KERNEL_VERSION: {

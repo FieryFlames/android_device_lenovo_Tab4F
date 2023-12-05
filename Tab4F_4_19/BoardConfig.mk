@@ -5,7 +5,7 @@
 #
 
 # Inherit from upper BoardConfig.mk
-include device/qualcomm/msm8937/BoardConfig.mk
+include device/lenovo/Tab4F/BoardConfig.mk
 
 # Properties
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/msm8937_4_19/vendor.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/Tab4F_4_19/vendor.prop

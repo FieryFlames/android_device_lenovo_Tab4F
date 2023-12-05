@@ -8,8 +8,8 @@
 
 set -e
 
-DEVICE=msm8937
-VENDOR=qualcomm
+DEVICE=Tab4F
+VENDOR=lenovo
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"

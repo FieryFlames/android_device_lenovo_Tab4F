@@ -5,8 +5,8 @@
 //
 
 cc_library_static {
-    name: "init_qualcomm_msm8937",
-    srcs: ["init_qualcomm_msm8937.cpp"],
+    name: "init_lenovo_tab4f",
+    srcs: ["init_lenovo_tab4f.cpp"],
     whole_static_libs: ["//device/xiaomi/mithorium-common:libinit_xiaomi_mithorium"],
     include_dirs: ["system/core/init"],
     recovery_available: true,

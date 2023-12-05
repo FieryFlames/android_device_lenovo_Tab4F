@@ -15,21 +15,21 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Kernel
 TARGET_KERNEL_VERSION := 4.9
 
-# Inherit from msm8937 device
-$(call inherit-product, device/qualcomm/msm8937/device.mk)
+# Inherit from Tab4F device
+$(call inherit-product, device/lenovo/Tab4F/device.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := msm8937
-PRODUCT_NAME := lineage_msm8937
-BOARD_VENDOR := Qualcomm
-PRODUCT_BRAND := Qualcomm
-PRODUCT_MODEL := MSM8937
-PRODUCT_MANUFACTURER := Qualcomm
-TARGET_VENDOR := Qualcomm
+PRODUCT_DEVICE := Tab4F
+PRODUCT_NAME := lineage_Tab4F
+BOARD_VENDOR := Lenovo
+PRODUCT_BRAND := Lenovo
+PRODUCT_MODEL := TAB4F
+PRODUCT_MANUFACTURER := Lenovo
+TARGET_VENDOR := Lenovo
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 

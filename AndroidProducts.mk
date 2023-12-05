@@ -5,13 +5,13 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_msm8937.mk \
-    $(LOCAL_DIR)/lineage_msm8937_4_19.mk
+    $(LOCAL_DIR)/lineage_Tab4F.mk \
+    $(LOCAL_DIR)/lineage_Tab4F_4_19.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_msm8937-user \
-    lineage_msm8937-userdebug \
-    lineage_msm8937-eng \
-    lineage_msm8937_4_19-user \
-    lineage_msm8937_4_19-userdebug \
-    lineage_msm8937_4_19-eng
+    lineage_Tab4F-user \
+    lineage_Tab4F-userdebug \
+    lineage_Tab4F-eng \
+    lineage_Tab4F_4_19-user \
+    lineage_Tab4F_4_19-userdebug \
+    lineage_Tab4F_4_19-eng

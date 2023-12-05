@@ -76,5 +76,6 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Inherit from vendor blobs
+# TODO: Rebrand this?
 $(call inherit-product, vendor/qualcomm/msm8937/msm8937-vendor.mk)
 #$(call inherit-product-if-exists, vendor/private/custom-camera/msm8937/product.mk)

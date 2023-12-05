@@ -48,14 +48,14 @@ TARGET_KERNEL_CONFIG += \
     vendor/msm8937-legacy.config
 endif
 TARGET_KERNEL_CONFIG += \
-    vendor/qualcomm/msm8937/qrd.config
+    vendor/lenovo/msm8917/tab4f.config
 
 ifeq ($(TARGET_KERNEL_VERSION),4.19)
 TARGET_KERNEL_RECOVERY_CONFIG += \
     vendor/msm8937-legacy.config
 endif
 TARGET_KERNEL_RECOVERY_CONFIG += \
-    vendor/qualcomm/msm8937/qrd.config
+    vendor/lenovo/msm8917/tab4f.config
 
 # Partitions
 BOARD_USES_METADATA_PARTITION := true

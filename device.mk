@@ -18,6 +18,8 @@ TARGET_SCREEN_WIDTH := 800
 # Screen density
 PRODUCT_AAPT_PREF_CONFIG := mdpi
 
+TARGET_HAS_NO_RADIO := true
+
 # Dynamic Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
@@ -36,8 +38,8 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*.xml,$(LOCAL_PATH)/audio/,$(TARGET_COPY_OUT_ODM)/etc/)
 
 # Camera
-PRODUCT_PACKAGES += \
-    camera.msm8937
+#PRODUCT_PACKAGES += \
+#    camera.msm8937
 
 # Filesystem
 PRODUCT_PACKAGES += \

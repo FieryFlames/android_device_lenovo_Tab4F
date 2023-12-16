@@ -19,6 +19,7 @@ TARGET_SCREEN_WIDTH := 800
 PRODUCT_AAPT_PREF_CONFIG := mdpi
 
 TARGET_HAS_NO_RADIO := true
+TARGET_IS_TABLET := true
 
 # Dynamic Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false
@@ -78,6 +79,5 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Inherit from vendor blobs
-# TODO: Rebrand this?
-$(call inherit-product, vendor/qualcomm/msm8937/msm8937-vendor.mk)
+$(call inherit-product, vendor/lenovo/Tab4F/Tab4F-vendor.mk)
 #$(call inherit-product-if-exists, vendor/private/custom-camera/msm8937/product.mk)
